@@ -23,7 +23,7 @@
 <body>
     <header>
     	<div id="pagetop">
-			<div id="sitename">List Manager</div>
+			<div id="sitename"><a href="index.php">List Manager</a></div>
             <div id="menu"><?php echo $toplinks; ?></div>
         </div>
     </header>
