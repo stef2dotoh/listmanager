@@ -5,7 +5,7 @@ This is a project created for class.  It's pretty straight-forward, so not overl
 
 Technology used: PHP, MySQL, JavaScript, jQuery, HTML, CSS, Bootstrap
 
-You can review the individual files or download the .zip.
+You can review the individual files or download the .zip.  Feel free to make any mods you wish.
 
 # Installation instructions
 1. Import listmanager.sql to create database back-end.  It contains two tables: users and todo_list.
