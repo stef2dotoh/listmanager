@@ -17,7 +17,6 @@
 	{		
 		// Connect to database
 		require_once ('includes/mysqli_connect.php');
-        //$mysqli = dbConnect("listmanager");
 		
 		$delete = "DELETE FROM todo_list WHERE tid = ? AND uid = ?";
 		

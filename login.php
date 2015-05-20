@@ -63,7 +63,6 @@
 		{
 			// Connect to database
 			require_once ('includes/mysqli_connect.php');
-          	//$mysqli = dbConnect("listmanager");
 				
 			// Get login info
 			$username = $_POST['username'];

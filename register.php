@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html>
-<!--
+<?php
+	session_start();
+
 	/******************************************************
 	 ** File: register.php
 	 ** Author: Stephanie M. Brown
 	 ** Date: October 2013
 	 ** Description: This file allows user to create account.
 	 ******************************************************/
--->
+?>
+
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -45,7 +48,6 @@
 </html>
 
 <?php
-	session_start();
 	
 	// Set top nav
 	$toplinks = '<a href="login.php">Sign In</a>';
@@ -55,7 +57,6 @@
 	{
 		// Connect to database
 		require_once ('includes/mysqli_connect.php');
-        //$mysqli = dbConnect("listmanager");
 		
 		$email = $_POST['email'];
 		$email = $mysqli->real_escape_string($email);
