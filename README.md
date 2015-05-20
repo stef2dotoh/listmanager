@@ -14,4 +14,6 @@ Upload the remaining files to a directory of your choice, maintaining the data s
 
 The database connection file is in the includes directory.  Modify the host, username, and password as necessary, but do not change the database name.  You can place this file outside of the web root for security purposes.  Just be sure to modify the require_once function in the following files to point to the correct location: add.php, login.php, register.php, remove.php, and view-list.php. 
 
-Navigate to the index.php file and start using listmanager.  The first step is to create a user, of course.  Once you do that, you can log in as you wish, add and remove items to/from the list.
+Navigate to the index.php file and start using listmanager.  The first step is to create a user, of course.  Note that passwords are hashed using MD5 and stored encrypted.  Email addresses are compared to addresses already in the database to make sure users don't enter duplicates.  
+
+After creating an account, you can log in as you wish, add and remove items to/from the list.
