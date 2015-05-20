@@ -8,7 +8,7 @@ Technology used: PHP, MySQL, JavaScript, jQuery, HTML, CSS, Bootstrap
 You can review the individual files or download the .zip.  Feel free to make any mods you wish.
 
 # Installation instructions
-1. Import listmanager.sql to create database back-end.  It contains two tables: users and todo_list.
+1. Import listmanager.sql to create the listmanager database.  It contains two tables: users and todo_list.
 
 2. Upload the remaining files to a directory of your choice, maintaining the data structure.
 
