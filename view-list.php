@@ -1,5 +1,12 @@
 <?php
 	session_start();
+
+	/******************************************************
+	 ** File: view-list.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file displays items in to-do list.
+	 ******************************************************/
 	
 	$uid = $_SESSION['uid'];
 	

@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+<!--
+	/******************************************************
+	 ** File: register.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file allows user to create account.
+	 ******************************************************/
+-->
+
 <head>
     <meta charset="UTF-8">
     <title>List Manager - Register</title>

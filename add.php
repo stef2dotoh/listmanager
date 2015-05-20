@@ -1,6 +1,13 @@
 <?php
 	session_start();
-		
+	
+	/******************************************************
+	 ** File: add.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file adds items to the to-do list.
+	 ******************************************************/
+
 	$uid = $_SESSION['uid'];
 			
 	if(!(isset($_SESSION['name'])))

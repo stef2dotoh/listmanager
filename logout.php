@@ -1,6 +1,14 @@
 <?php
 	session_start();
 	
+	/******************************************************
+	 ** File: logout.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file logs user out.
+	 ******************************************************/
+
+
 	$toplinks = '<a href="login.php">Sign In</a>';
 	
 	if (isset($_SESSION))

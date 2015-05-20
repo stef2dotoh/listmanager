@@ -1,5 +1,15 @@
 <?php
 	session_start();
+
+    /******************************************************
+     ** File: membersonly.php
+     ** Author: Stephanie M. Brown
+     ** Date: October 2013
+     ** Description: If a user tries to view member info 
+     ** without logging in, this file gives warning and
+     ** and prompts login or registration.
+     ******************************************************/
+
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,12 @@
 <?php
 	session_start();
+
+	/******************************************************
+	 ** File: remove.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file removes items from to-do list.
+	 ******************************************************/
 			
 	$tid = $_GET['tid'];
 	$uid = $_SESSION['uid'];

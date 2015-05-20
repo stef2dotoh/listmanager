@@ -1,6 +1,14 @@
 <?php
 	session_start();
-			
+	
+	/******************************************************
+	 ** File: login.php
+	 ** Author: Stephanie M. Brown
+	 ** Date: October 2013
+	 ** Description: This file allows user to log in.
+	 ******************************************************/
+
+		
 	// If user is already logged in, go to splash page, else process login
 	if (isset($_SESSION['name']))
 	{
